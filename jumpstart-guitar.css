@@ -1,0 +1,218 @@
+/* Jumpstart Guitar Stylesheet
+ * ===========================
+ * Isaac Delph
+ * CSE300
+ */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+:root {
+    font-family: Georgia, 'Times New Roman', serif;
+    
+    /* Color scheme chosen using realtimecolors.com */
+		--text-50: #0a0911;
+    --text-100: #141122;
+    --text-200: #282244;
+    --text-300: #3c3366;
+    --text-400: #504488;
+    --text-500: #6355aa;
+    --text-600: #8377bb;
+    --text-700: #a299cc;
+    --text-800: #c1bbdd;
+    --text-900: #e0ddee;
+    --text-950: #efeef6;
+
+    --background-50: #090713;
+    --background-100: #110e25;
+    --background-200: #221b4b;
+    --background-300: #332970;
+    --background-400: #443696;
+    --background-500: #5644bb;
+    --background-600: #7769c9;
+    --background-700: #998fd6;
+    --background-800: #bbb4e4;
+    --background-900: #dddaf1;
+    --background-950: #eeecf8;
+
+    --primary-50: #070515;
+    --primary-100: #0f092a;
+    --primary-200: #1d1254;
+    --primary-300: #2c1c7d;
+    --primary-400: #3a25a7;
+    --primary-500: #492ed1;
+    --primary-600: #6d58da;
+    --primary-700: #9282e3;
+    --primary-800: #b6abed;
+    --primary-900: #dbd5f6;
+    --primary-950: #edeafa;
+
+    --secondary-50: #060317;
+    --secondary-100: #0b052e;
+    --secondary-200: #170b5b;
+    --secondary-300: #221089;
+    --secondary-400: #2e15b7;
+    --secondary-500: #391be4;
+    --secondary-600: #6148ea;
+    --secondary-700: #8876ef;
+    --secondary-800: #b0a4f4;
+    --secondary-900: #d7d1fa;
+    --secondary-950: #ebe8fc;
+
+    --accent-50: #050119;
+    --accent-100: #0a0231;
+    --accent-200: #130363;
+    --accent-300: #1d0594;
+    --accent-400: #2606c6;
+    --accent-500: #3008f7;
+    --accent-600: #5939f9;
+    --accent-700: #836bfa;
+    --accent-800: #ac9cfc;
+    --accent-900: #d6cefd;
+    --accent-950: #eae6fe;
+}
+
+body {
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, var(--background-200), var(--background-50));
+}
+
+header {
+    color: var(--primary-950);
+    background-color: var(--background-300);
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    font-style: italic;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+header a:link {
+    text-decoration: none;
+    color: var(--primary-950);
+}
+
+header a:visited {
+    text-decoration: none;
+    color: var(--primary-950);
+}
+
+nav {
+    background-color: var(--background-900);
+    font-weight: bold;
+    font-size: 26px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+nav a:link {
+    text-decoration: none;
+    color: var(--accent-300);
+}
+
+nav a:visited {
+    text-decoration: none;
+    color: var(--accent-300);
+}
+
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+h2 {
+    text-align: center;
+    font-size: 52px;
+    margin-bottom: 12px;
+}
+
+h3 {
+    text-align: left;
+    margin-left: 1%;
+    margin-bottom: 12px;
+    font-size: 28px;
+}
+
+p, ol {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 12px;
+}
+
+table {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border-spacing: 12px 6px;
+}
+
+label {
+    text-align: right;
+}
+
+input[type="text"], input[type="email"] {
+    width: 75%;
+}
+
+input[type="submit"] {
+    text-align: center;
+    margin-left: 100%;
+    font-size: 16px;
+    padding: 3px;
+}
+
+footer {
+    background-color: var(--background-900);
+    font-size: 12px;
+    text-align: center;
+    line-height: 15px;
+    padding-top: 14px;
+    padding-bottom: 12px;
+}
+
+#copyright {
+    font-style: italic;
+}
+
+#phone {
+    font-style: italic;
+}
+
+
+#jumpstarthero {
+    /* Image sourced from pngtree.com */
+    background-image: url(media/jumpstarthero.png);
+    height: 350px;
+    margin: 20px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#musictheoryhero {
+    /* Image sourced from stock.adobe.com */
+    background-image: url(media/musictheoryhero.jpg);
+    height: 350px;
+    margin: 20px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#wrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid var(--accent-50);
+    box-shadow: 3px 3px 3px var(--accent-50);
+    background-color: var(--primary-950);
+    margin-top: 15px;
+}
