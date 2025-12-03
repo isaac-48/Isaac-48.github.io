@@ -135,15 +135,14 @@ h2 {
 }
 
 h3 {
-    text-align: left;
-    margin-left: 1%;
+    text-align: center;
     margin-bottom: 12px;
     font-size: 28px;
 }
 
-p, ol {
-    margin-left: 10%;
-    margin-right: 10%;
+ol {
+    list-style-type: upper-roman;
+    list-style-position: inside;
     margin-bottom: 12px;
 }
 
@@ -188,6 +187,26 @@ footer {
     font-style: italic;
 }
 
+.text-content {
+    text-align: left;
+    margin-bottom: 12px;
+    margin-left: 8em;
+    margin-right: 8em;
+}
+
+.list-content {
+    text-align: center;
+}
+
+.list-content ol {
+    display: inline-block;
+    text-align: left;
+}
+
+.image-content {
+    text-align: center;
+    margin-bottom: 12px;
+}
 
 #jumpstarthero {
     /* Image sourced from pngtree.com */
@@ -201,6 +220,33 @@ footer {
 #musictheoryhero {
     /* Image sourced from stock.adobe.com */
     background-image: url(media/musictheoryhero.jpg);
+    height: 350px;
+    margin: 20px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#terminologyhero {
+    /* Image sourced from stock.adobe.com */
+    background-image: url(media/terminologyhero.jpg);
+    height: 350px;
+    margin: 20px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#techniquehero {
+    /* Image sourced from dreamstime.com */
+    background-image: url(media/techniquehero.webp);
+    height: 350px;
+    margin: 20px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#readingmusichero {
+    /* Image sourced from smithsonianmag.com */
+    background-image: url(media/readingmusichero.webp);
     height: 350px;
     margin: 20px;
     background-size: 100% 100%;
