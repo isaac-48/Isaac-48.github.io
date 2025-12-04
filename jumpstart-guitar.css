@@ -208,6 +208,28 @@ footer {
     margin-bottom: 12px;
 }
 
+#guitardiagram {
+    /* Image sourced from guitarriver.com */
+    background-image: url(media/electric-guitar-anatomy-diagram.jpg);
+    height: 200px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 12px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#guitarampimage {
+    /* Image sourced from positivegrid.com */
+    background-image: url(media/guitar-amp-anatomy.png);
+    height: 200px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 12px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
 #jumpstarthero {
     /* Image sourced from pngtree.com */
     background-image: url(media/jumpstarthero.png);
